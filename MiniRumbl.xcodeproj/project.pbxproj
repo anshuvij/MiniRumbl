@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0D3BA5265008BB006386E1 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BA3265008BB006386E1 /* VideoTableViewCell.swift */; };
+		4B0D3BA6265008BB006386E1 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0D3BA4265008BB006386E1 /* VideoTableViewCell.xib */; };
+		4B0D3BAB265008CC006386E1 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BA9265008CC006386E1 /* VideoCollectionViewCell.swift */; };
+		4B0D3BAC265008CC006386E1 /* VideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0D3BAA265008CC006386E1 /* VideoCollectionViewCell.xib */; };
+		4B0D3BB026500CBD006386E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BAF26500CBD006386E1 /* Constants.swift */; };
+		4B0D3BB32650145E006386E1 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B0D3BB22650145E006386E1 /* data.json */; };
+		4B0D3BB726501501006386E1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BB626501501006386E1 /* ModelData.swift */; };
+		4B0D3BBB26501703006386E1 /* VideoURLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BBA26501703006386E1 /* VideoURLData.swift */; };
+		4B0D3BC2265053EC006386E1 /* VideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BC0265053EC006386E1 /* VideoPlayerVC.swift */; };
+		4B0D3BC3265053EC006386E1 /* VideoPlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0D3BC1265053EC006386E1 /* VideoPlayerVC.xib */; };
+		4B0D3BCA26506ADE006386E1 /* PhotoTypeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BC926506ADE006386E1 /* PhotoTypeAnimationController.swift */; };
+		4B0D3BCD26506B15006386E1 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BCC26506B15006386E1 /* ZoomAnimator.swift */; };
+		4B0D3BD026506B2F006386E1 /* ZoomDismissalInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BCF26506B2F006386E1 /* ZoomDismissalInteractionController.swift */; };
+		4B0D3BD72650FCC5006386E1 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3BD62650FCC5006386E1 /* ImageViewExtension.swift */; };
 		4BD61C22265005B40041828F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61C21265005B40041828F /* AppDelegate.swift */; };
 		4BD61C24265005B40041828F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61C23265005B40041828F /* SceneDelegate.swift */; };
 		4BD61C26265005B40041828F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61C25265005B40041828F /* ViewController.swift */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0D3BA3265008BB006386E1 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		4B0D3BA4265008BB006386E1 /* VideoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		4B0D3BA9265008CC006386E1 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B0D3BAA265008CC006386E1 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		4B0D3BAF26500CBD006386E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B0D3BB22650145E006386E1 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4B0D3BB626501501006386E1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		4B0D3BBA26501703006386E1 /* VideoURLData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoURLData.swift; sourceTree = "<group>"; };
+		4B0D3BC0265053EC006386E1 /* VideoPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerVC.swift; sourceTree = "<group>"; };
+		4B0D3BC1265053EC006386E1 /* VideoPlayerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayerVC.xib; sourceTree = "<group>"; };
+		4B0D3BC926506ADE006386E1 /* PhotoTypeAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTypeAnimationController.swift; sourceTree = "<group>"; };
+		4B0D3BCC26506B15006386E1 /* ZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
+		4B0D3BCF26506B2F006386E1 /* ZoomDismissalInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomDismissalInteractionController.swift; sourceTree = "<group>"; };
+		4B0D3BD62650FCC5006386E1 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		4BD61C1E265005B40041828F /* MiniRumbl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniRumbl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD61C21265005B40041828F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD61C23265005B40041828F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +65,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B0D3BA22650089E006386E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3BA3265008BB006386E1 /* VideoTableViewCell.swift */,
+				4B0D3BA4265008BB006386E1 /* VideoTableViewCell.xib */,
+				4B0D3BA9265008CC006386E1 /* VideoCollectionViewCell.swift */,
+				4B0D3BAA265008CC006386E1 /* VideoCollectionViewCell.xib */,
+				4B0D3BC1265053EC006386E1 /* VideoPlayerVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B0D3BAE26500CAA006386E1 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3BAF26500CBD006386E1 /* Constants.swift */,
+				4B0D3BB22650145E006386E1 /* data.json */,
+				4B0D3BC926506ADE006386E1 /* PhotoTypeAnimationController.swift */,
+				4B0D3BCC26506B15006386E1 /* ZoomAnimator.swift */,
+				4B0D3BCF26506B2F006386E1 /* ZoomDismissalInteractionController.swift */,
+				4B0D3BD62650FCC5006386E1 /* ImageViewExtension.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		4B0D3BB5265014DD006386E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3BB626501501006386E1 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B0D3BB9265016E3006386E1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3BBA26501703006386E1 /* VideoURLData.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4B0D3BD226506BF9006386E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3BC0265053EC006386E1 /* VideoPlayerVC.swift */,
+				4BD61C25265005B40041828F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4BD61C15265005B40041828F = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +134,13 @@
 		4BD61C20265005B40041828F /* MiniRumbl */ = {
 			isa = PBXGroup;
 			children = (
+				4B0D3BD226506BF9006386E1 /* Controller */,
+				4B0D3BB9265016E3006386E1 /* API */,
+				4B0D3BB5265014DD006386E1 /* Model */,
+				4B0D3BAE26500CAA006386E1 /* Utilites */,
+				4B0D3BA22650089E006386E1 /* View */,
 				4BD61C21265005B40041828F /* AppDelegate.swift */,
 				4BD61C23265005B40041828F /* SceneDelegate.swift */,
-				4BD61C25265005B40041828F /* ViewController.swift */,
 				4BD61C27265005B40041828F /* Main.storyboard */,
 				4BD61C2A265005B60041828F /* Assets.xcassets */,
 				4BD61C2C265005B60041828F /* LaunchScreen.storyboard */,
@@ -125,6 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD61C2E265005B60041828F /* LaunchScreen.storyboard in Resources */,
+				4B0D3BB32650145E006386E1 /* data.json in Resources */,
+				4B0D3BA6265008BB006386E1 /* VideoTableViewCell.xib in Resources */,
+				4B0D3BAC265008CC006386E1 /* VideoCollectionViewCell.xib in Resources */,
+				4B0D3BC3265053EC006386E1 /* VideoPlayerVC.xib in Resources */,
 				4BD61C2B265005B60041828F /* Assets.xcassets in Resources */,
 				4BD61C29265005B40041828F /* Main.storyboard in Resources */,
 			);
@@ -138,8 +224,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD61C26265005B40041828F /* ViewController.swift in Sources */,
+				4B0D3BCA26506ADE006386E1 /* PhotoTypeAnimationController.swift in Sources */,
+				4B0D3BC2265053EC006386E1 /* VideoPlayerVC.swift in Sources */,
+				4B0D3BBB26501703006386E1 /* VideoURLData.swift in Sources */,
+				4B0D3BA5265008BB006386E1 /* VideoTableViewCell.swift in Sources */,
 				4BD61C22265005B40041828F /* AppDelegate.swift in Sources */,
+				4B0D3BD72650FCC5006386E1 /* ImageViewExtension.swift in Sources */,
+				4B0D3BCD26506B15006386E1 /* ZoomAnimator.swift in Sources */,
+				4B0D3BAB265008CC006386E1 /* VideoCollectionViewCell.swift in Sources */,
 				4BD61C24265005B40041828F /* SceneDelegate.swift in Sources */,
+				4B0D3BD026506B2F006386E1 /* ZoomDismissalInteractionController.swift in Sources */,
+				4B0D3BB026500CBD006386E1 /* Constants.swift in Sources */,
+				4B0D3BB726501501006386E1 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H37Y73D229;
 				INFOPLIST_FILE = MiniRumbl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H37Y73D229;
 				INFOPLIST_FILE = MiniRumbl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
